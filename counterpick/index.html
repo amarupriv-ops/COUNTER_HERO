@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLBB Draft Pick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Draft Pick Mobile Legends</h1>
+    <p class="subtitle">Pilih hero dan lihat counternya!</p>
+  </header>
+
+  <main>
+    <section id="hero-list" class="hero-list"></section>
+
+    <section id="hero-details" class="hero-details hidden">
+      <button id="exit-detail">← Kembali ke Daftar Hero</button>
+      
+      <div id="hero-image"></div>
+      <h2 id="hero-name"></h2>
+      <p id="hero-role"></p>
+
+      <p id="hero-description"></p> 
+
+      <div class="info">
+        <h3> Skills</h3>
+        <ul id="hero-skills"></ul>
+
+        <h3> Counters</h3>
+        <ul id="hero-counters"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
