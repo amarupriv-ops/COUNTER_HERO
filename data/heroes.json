@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Chou",
+    "role": "Fighter",
+    "description": "Hero Fighter/Assassin yang dikenal dengan mobilitas tinggi dan kemampuan crowd control yang sangat kuat. Chou ideal untuk menculik hero lawan yang lemah dan inisiasi pertarungan menggunakan ultimate-nya, 'The Way of Dragon'.",
+    "image": "images/chou.jpg",
+    "items": ["Blade of Heptaseas", "Warrior Boots"],
+    "skills": [
+      { "name": "Jeet Kune Do", "desc": "Serangan tiga kali yang memberikan efek knock-up di pukulan terakhir." },
+      { "name": "Shunpo", "desc": "Melompat ke arah depan dan meningkatkan pertahanan fisik untuk sementara." },
+      { "name": "The Way of Dragon", "desc": "Menendang target ke arah belakang, lalu bisa menendang lagi untuk melemparkannya." }
+    ],
+    "counters": ["Khufra", "Ruby", "Diggie"]
+  },
+  {
+    "name": "Layla",
+    "role": "Marksman",
+    "description": "Marksman klasik dengan jangkauan serangan terpanjang di game. Layla sangat bergantung pada farming di awal dan mampu memberikan Physical Damage masif dari jarak aman di late game, namun rentan terhadap serangan mendadak.",
+    "image": "images/layla.jpg",
+    "items": ["Berserker's Fury", "Swift Boots"],
+    "skills": [
+      { "name": "Malefic Bomb", "desc": "Menembakkan peluru energi jarak jauh yang memberikan damage tinggi." },
+      { "name": "Void Projectile", "desc": "Menembakkan bola energi yang memperlambat musuh." },
+      { "name": "Destruction Rush", "desc": "Menembakkan sinar energi besar yang memberikan damage besar ke musuh di depan." }
+    ],
+    "counters": ["Natalia", "Lancelot", "Hayabusa"]
+  },
+  {
+    "name": "Angela",
+    "role": "Support",
+    "description": "Hero Support yang fokus pada *healing* dan *buff*. Ultimate-nya, 'Heartguard', memungkinkannya memasuki tubuh rekan tim, memberikan perisai, dan menggunakan skillnya tanpa harus berada di garis depan, menjadikannya penyelamat yang efektif.",
+    "image": "images/angela.jpg",
+    "items": ["Fleeting Time", "Dominance Ice"],
+    "skills": [
+      { "name": "Love Waves", "desc": "Mengirimkan gelombang cinta yang menyembuhkan sekutu dan melukai musuh." },
+      { "name": "Puppet-on-a-String", "desc": "Mengikat musuh dengan benang energi yang memperlambat dan men-stun." },
+      { "name": "Heartguard", "desc": "Melindungi sekutu dengan perisai besar dan menempel padanya selama beberapa detik." }
+    ],
+    "counters": ["Franco", "Saber", "Kaja"]
+  }
+]
